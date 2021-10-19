@@ -9,6 +9,7 @@ int main() {
     while (n != 0) {
         remainder = n % 10;
         reversed = reversed * 10 + remainder;
+        n=n/10;
     }
 
     // palindrome if orignal and reversed are equal
